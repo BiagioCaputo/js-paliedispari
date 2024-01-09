@@ -28,3 +28,16 @@ function isPalindrome(text){
     return palindrome;
 
 }
+
+// Funzione che crea un numero random compreso fra 1 e 5
+function getRandomNumber(){
+    return Math.floor(Math.random() * (5 - 1 + 1) ) + 1;
+}
+
+function isEven (number){
+    let even = "dispari";
+
+    if(number % 2 === 0) even = "pari";
+
+    return even;
+}
